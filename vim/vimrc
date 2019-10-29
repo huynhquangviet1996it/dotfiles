@@ -100,10 +100,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'christoomey/vim-system-copy'
 
 " For Rails
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails'
-Plug 'neoclide/coc-solargraph', {'do': 'yarn install --frozen-lockfile'}
-
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 " UI
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

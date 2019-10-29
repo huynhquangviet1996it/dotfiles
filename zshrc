@@ -69,7 +69,7 @@ ZSH_THEME="amuse"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(rails git ruby zsh-autosuggestions tmux zsh-syntax-highlighting)
+plugins=(git ruby zsh-autosuggestions tmux zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
