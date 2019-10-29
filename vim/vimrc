@@ -67,10 +67,10 @@ set colorcolumn=+1
 
 set autoindent                " Auto-indent new lines
 set expandtab                 " Use spaces instead of tabs
-set shiftwidth=2              " Number of auto-indent spaces
+set shiftwidth=4              " Number of auto-indent spaces
 set smartindent               " Enable smart-indent
 set smarttab                  " Enable smart-tabs
-set softtabstop=2             " Number of spaces per Tab
+set softtabstop=4             " Number of spaces per Tab
 
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
@@ -99,8 +99,10 @@ Plug 'SirVer/ultisnips'
 Plug 'jiangmiao/auto-pairs'
 Plug 'christoomey/vim-system-copy'
 
-" For Rails
+" For Python 
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+" For Javascript
+Plug 'pangloss/vim-javascript'
 " UI
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
